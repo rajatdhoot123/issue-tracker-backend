@@ -1,12 +1,13 @@
 {
-  "name": "bookstore",
+  "name": "support",
   "version": "1.0.0",
-  "description": "Book Store Api",
+  "description": "support ticket app api",
   "main": "server.js",
   "author": "rajatdhoot123@gmail.com",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
